@@ -1,137 +1,134 @@
 
-# Tele-Port: Shipment-Based Service Platform 🚚📦  
 
-**Tele-Port** is a shipment-based service company website designed to facilitate seamless logistics and shipping management. The platform connects customers with reliable shipment services, allowing them to schedule pickups, track deliveries, and manage orders efficiently.  
+# 🚚 Tele-Port: Shipment-Based Service Platform
 
----
-
-## 📋 **Table of Contents**  
-
-1. [About the Project](#about-the-project)  
-2. [Features](#features)  
-3. [Technologies Used](#technologies-used)  
-4. [Setup and Installation](#setup-and-installation)  
-5. [Screenshots](#screenshots)  
-6. [Contributing](#contributing)  
-7. [License](#license)  
-8. [Contact](#contact)  
+**Tele-Port** is a responsive and dynamic web platform designed to streamline logistics and shipment services. It connects users with reliable shipping solutions—allowing them to schedule pickups, track deliveries, and manage logistics effortlessly.
 
 ---
 
-## 📝 **About the Project**  
+## 📂 Folder Structure
 
-**Tele-Port** was created to streamline logistics and delivery services. The platform aims to simplify shipment management for both businesses and individual users by providing intuitive features for:  
-- Booking and scheduling pickups.  
-- Tracking shipments in real time.  
-- Managing delivery statuses with user-friendly dashboards.  
-
-This project reflects my ability to build user-centric platforms with functionality and responsiveness in mind.  
-
-### 🌟 **Live Demo**  
-Check out the live version here:  
-**[Tele-Port](https://your-tele-port-link.com)**  
-
----
-
-## ✨ **Features**  
-
-- **User Features**:  
-  - Register and log in securely.  
-  - Schedule shipment pickups.  
-  - View and track shipment status.  
-
-- **Admin Dashboard**:  
-  - Manage shipments, users, and delivery personnel.  
-  - Update shipment statuses.  
-
-- **Additional Features**:  
-  - Intuitive design for ease of use.  
-  - Fully responsive for mobile, tablet, and desktop.  
+```
+Tele-Port/
+├── animate/         # Animation-related styles
+├── counterup/       # Counter animation plugins
+├── css/             # Core stylesheets
+├── easing/          # Scroll easing utilities
+├── forms/           # Form validation or styles
+├── img/             # Images used in the UI
+├── js/              # JavaScript functionalities
+├── plugins/         # External libraries or plugins
+├── owlcarousel/     # Carousel/slider functionality
+├── utilities/       # Utility scripts
+├── vendor/          # Vendor-specific JS/CSS
+├── waypoints/       # Waypoint JS for scroll-based events
+├── wow/             # WOW.js animations
+├── 404.html         # Custom 404 error page
+├── LICENSE
+└── README.md
+```
 
 ---
 
-## 💻 **Technologies Used**  
+## 📋 Table of Contents
 
-- **Front-End**:  
-  - HTML5, CSS3, JavaScript  
-  - Frameworks: Bootstrap (if used)  
-
-- **Back-End**:  
-  - Node.js and Express.js (or specify other frameworks if applicable)  
-
-- **Database**:  
-  - MongoDB (or specify the database used)  
-
-- **Hosting**:  
-  - Deployed on [platform] (e.g., Heroku, Vercel, or GitHub Pages).  
+1. [About](#about)
+2. [Features](#features)
+3. [Technologies](#technologies)
+4. [Installation](#installation)
+5. [Screenshots](#screenshots)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
 ---
 
-## 🛠 **Setup and Installation**  
+## 📝 About
 
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/your-username/tele-port.git  
-   ```  
+**Tele-Port** was developed to support shipment tracking and logistics requests. It provides a front-end interface with visually engaging effects (animations, counters, carousels) and form handling components that simulate a real shipment workflow.
 
-2. Navigate to the project folder:  
-   ```bash  
-   cd tele-port  
-   ```  
-
-3. Install the dependencies:  
-   ```bash  
-   npm install  
-   ```  
-
-4. Start the development server:  
-   ```bash  
-   npm start  
-   ```  
-
-5. Open the application in your browser:  
-   ```  
-   http://localhost:3000  
-   ```  
+While this version focuses on the front-end, it's structured to easily integrate with back-end services like Node.js, Flask, or Firebase for a fully dynamic experience.
 
 ---
 
-## 📸 **Screenshots**  
+## ✨ Features
 
-### Home Page  
-![Home Page](screenshots/home.png)  
-
-### Schedule Shipment Page  
-![Schedule Shipment Page](screenshots/schedule.png)  
-
-### Admin Dashboard  
-![Admin Dashboard](screenshots/admin.png)  
-
-*Add more screenshots of key features and sections as necessary.*  
+* Schedule shipment pickups via forms.
+* Animated counters and scroll effects.
+* Responsive UI using custom CSS and utility libraries.
+* Sliders and carousels for showcasing services/testimonials.
+* Custom 404 page for unmatched routes.
 
 ---
 
-## 🤝 **Contributing**  
+## 💻 Technologies
 
-Contributions are welcome!  
-1. Fork the repository.  
-2. Create a feature branch (`git checkout -b feature-name`).  
-3. Commit your changes (`git commit -m "Add feature-name"`).  
-4. Push to the branch (`git push origin feature-name`).  
-5. Open a Pull Request.  
+* **Languages:** HTML5, CSS3, JavaScript
+* **Libraries/Plugins:**
 
----
-
-## 📄 **License**  
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.  
+  * WOW\.js
+  * Owl Carousel
+  * jQuery CounterUp
+  * Waypoints
+  * Animate.css
 
 ---
 
-## 📬 **Contact**  
+## ⚙️ Installation
 
-- **Developer**: Aman Antuley  
-- **Email**: [your-email@example.com](mailto:your-email@example.com)  
-- **Website**: [Tele-Port](https://your-tele-port-link.com)  
-- **GitHub**: [https://github.com/amanantuley](https://github.com/amanantuley)  
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)  
+To run locally:
+
+```bash
+git clone https://github.com/amanantuley/tele-port.git
+cd tele-port
+# No build step needed; open with any browser
+```
+
+Open `index.html` in your preferred browser or run a simple server (for better compatibility):
+
+```bash
+# Using Python
+python -m http.server
+```
+
+Then open `http://localhost:8000` in your browser.
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots to the `/screenshots` folder and link below once available.
+
+* **Home Page** – Clean UI with animation.
+* **Schedule Form** – Intuitive pickup request form.
+* **404 Page** – Styled custom error page.
+
+---
+
+## 🤝 Contributing
+
+You're welcome to contribute!
+
+```bash
+# Steps
+1. Fork this repository
+2. Create a new branch: git checkout -b feature-branch
+3. Make changes and commit: git commit -m "your message"
+4. Push changes: git push origin feature-branch
+5. Submit a Pull Request
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+
+* **Developer:** Aman Antuley
+* **Email:** [amanantuley@gmail.com](mailto:amanantuley@gmail.com)
+* **GitHub:** [@amanantuley](https://github.com/amanantuley)
+* **LinkedIn:** [Aman Antuley](https://linkedin.com/in/amanantuley)
